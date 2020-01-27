@@ -1,10 +1,10 @@
 <?php
 class Database{
  
-    // specify your own database credentials
-    private $host = "localhost";
+    // specify database credentials
+    private $host = "";
     private $db_name = "api_db";
-    private $username = "root";
+    private $username = "";
     private $password = "";
     public $conn;
  
